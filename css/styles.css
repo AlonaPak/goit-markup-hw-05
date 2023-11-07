@@ -731,6 +731,11 @@ transform: translateY(0%);
     margin-bottom: 24px;
 }
 
+.form-field-wrapper.comment {
+    margin-bottom: 16px;
+} 
+
+
 .form-field-icon {
     position: absolute;
     top: 50%;
@@ -742,6 +747,10 @@ transform: translateY(0%);
 
 .form-field-icon:focus {
     fill: #4D5AE5;
+}
+
+.form-field-input + .form-field-icon {
+    fill: #4d5ae5;
 }
 
 .form-field-info {
