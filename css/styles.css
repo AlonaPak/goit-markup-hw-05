@@ -728,7 +728,7 @@ transform: translateY(0%);
 }
 
 .form-field-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .form-field-wrapper.comment {
@@ -749,9 +749,9 @@ transform: translateY(0%);
     fill: #4D5AE5;
 }
 
-.form-field-input + .form-field-icon {
+/* .form-field-input {
     fill: #4d5ae5;
-}
+} */
 
 .form-field-info {
     width: 100%;
@@ -783,9 +783,24 @@ transform: translateY(0%);
 /* ====================== /FORM ================== */
 
 /* ================ FORM CHECKBOX ================ */
-.form-field-wrapper {
+/* .form-field-wrapper {
+    margin-bottom: 24px;
+} */
+
+/* .checkbox {
+    margin-bottom: 24px;
+} */
+
+.form-checkbox-privacy {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
     margin-bottom: 24px;
 }
+
+
 .form-checkbox-label {
     font-size: 12px;
     font-weight: 400;
